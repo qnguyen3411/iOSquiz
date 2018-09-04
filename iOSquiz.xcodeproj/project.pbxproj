@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		E3800E7A213C2EBE0018D893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3800E79213C2EBE0018D893 /* AppDelegate.swift */; };
 		E3800E7C213C2EBE0018D893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3800E7B213C2EBE0018D893 /* ViewController.swift */; };
-		E3800E7F213C2EBE0018D893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3800E7D213C2EBE0018D893 /* Main.storyboard */; };
 		E3800E81213C2EBF0018D893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3800E80213C2EBF0018D893 /* Assets.xcassets */; };
 		E3800E84213C2EBF0018D893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3800E82213C2EBF0018D893 /* LaunchScreen.storyboard */; };
 		E3800E8F213C2EC00018D893 /* iOSquizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3800E8E213C2EC00018D893 /* iOSquizTests.swift */; };
 		E3800E9A213C2EC00018D893 /* iOSquizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3800E99213C2EC00018D893 /* iOSquizUITests.swift */; };
+		E3800EA8213C360C0018D893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3800E7D213C2EBE0018D893 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3800EA8213C360C0018D893 /* Main.storyboard in Resources */,
 				E3800E84213C2EBF0018D893 /* LaunchScreen.storyboard in Resources */,
 				E3800E81213C2EBF0018D893 /* Assets.xcassets in Resources */,
-				E3800E7F213C2EBE0018D893 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +300,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		E3800E82213C2EBF0018D893 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
